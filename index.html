@@ -12,9 +12,48 @@
 </head>
 <body>
     
-<p>سلام</p>
-<p>hello</p>
+<header>
+    
+<p>Welcome to the Game of chance</p>
+<p>Coded by Pouya Sabeti</p>
 
+</header>
+
+<main>
+    <div class="app">
+        <h1>Game of chance</h1>
+        <div class="box">
+            <div>
+                <p>From 1 to 20</p>
+                <button class="number">?</button>
+            </div>
+            <div>
+             
+                    <input type="number" name="numb" id="numb" max="20" min="0">
+                    <div class="number-box" style="
+                    height: 130px;
+                ">
+                        <button onclick="value_num('1')">1</button>
+                        <button onclick="value_num('2')">2</button>
+                        <button onclick="value_num('3')">3</button>
+                        <button onclick="value_num('4')">4</button>
+                        <button onclick="value_num('5')">5</button>
+                        <button onclick="value_num('6')">6</button>
+                        <button onclick="value_num('7')">7</button>
+                        <button onclick="value_num('8')">8</button>
+                        <button onclick="value_num('9')">9</button>
+                        <button style="grid-column-start: 2; grid-column-end: 3;" onclick="value_num('0')">0</button>
+                    </div>
+            <button id="Check">Check!</button>
+            </div>
+            <div class="right">
+                <h3>Not started...</h3>
+                <p>Your score: <span>20</span></p>
+                <p>The best score: <span>0</span></p>
+            </div>
+        </div>
+    </div>
+</main>
     <script src="js/app.js"></script>
 </body>
 </html>
