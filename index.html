@@ -29,7 +29,7 @@
             </div>
             <div>
              
-                    <input type="number" name="numb" id="numb" max="20" min="0">
+                    <input type="number" name="numb" id="numb" max="20" min="0" >
                     <div class="number-box" style="
                     height: 130px;
                 ">
@@ -44,12 +44,12 @@
                         <button onclick="value_num('9')">9</button>
                         <button style="grid-column-start: 2; grid-column-end: 3;" onclick="value_num('0')">0</button>
                     </div>
-            <button id="Check">Check!</button>
+            <button id="Check" onclick="check()">Check!</button>
             </div>
             <div class="right">
-                <h3>Not started...</h3>
-                <p>Your score: <span>20</span></p>
-                <p>The best score: <span>0</span></p>
+                <h3 id="help">Not started...</h3>
+                <p>Your score: <span id="Your_score">20</span></p>
+                <p>The best score: <span id="The_best_score">0</span></p>
             </div>
         </div>
     </div>

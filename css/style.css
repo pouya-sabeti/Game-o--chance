@@ -78,6 +78,10 @@ animation: a 4s infinite;
     width: 250px;
     text-align: center;
     font-size: 50px;
+    background: none;
+    border: 3px solid #eee;
+    border-bottom: none;
+    color: #eee;
 }
 #Check{
     width: 100%;
@@ -98,4 +102,5 @@ margin-bottom: 100px;
 .right p{
     margin: 20px 0;
     text-align: left;
+
     }
