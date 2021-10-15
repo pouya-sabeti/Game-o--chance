@@ -17,10 +17,26 @@
   .app {
     width: 576px;
   }
+  .box{
+ 
+    grid-template-columns: auto;
+    gap:20px 0
+  
+}
 }
 @media (max-width: 575.98px) {
   .app {
     width: calc(100% - 30px);
     padding: 0 15px;
+  }
+  header{
+    display: block;
+    text-align: center;
+    height: auto;
+  }
+  header p{
+    font-size: 13px;
+  
+    margin:15px 0
   }
 }
